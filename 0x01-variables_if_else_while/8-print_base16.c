@@ -6,11 +6,14 @@
  */
 int main(void)
 {
-char hex;
-for (hex = 0; hex < 16; hex++)
+char letters;
+int num;
+for (num = 0; num < 10; num++)
 {
-putchar((hex % 16) + '0');
+putchar((num % 10) + '0');
 }
+for (letters = 'a'; letters <= 'f'; letters++)
+putchar(letters);
 putchar('\n');
 return (0);
 }
