@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int alp_lower[26] = "abcdefghijklmnopqrstuvwxyz";
-int alp_upper[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alp_lower[26] = "abcdefghijklmnopqrstuvwxyz";
+char alp_upper[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int l;
 int u;
 for (l = 0; l < 26; l++)
