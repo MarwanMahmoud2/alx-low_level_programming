@@ -5,9 +5,8 @@
  *
  * Return: 1 computed value, 0 otherwise
  */
-int _abs(int)
+int _abs(int n)
 {
-int n;
 if (n >= 0)
 return (1);
 else
