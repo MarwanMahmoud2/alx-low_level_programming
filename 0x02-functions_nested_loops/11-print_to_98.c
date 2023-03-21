@@ -3,14 +3,27 @@
 /**
  * print_to_98 - prints from n to 98
  *
- * @n: The number will be entered
+ * @n1: The numbers will be entered
+ * @n2: The numbers will be entered
+ * @n3: The numbers will be entered
  */
-void print_to_98(int n)
+void print_to_98(int n1, int n2, int n3)
 {
-for (n = 0; n <= 98; n++)
+for (n1 = 0; n <= 9; n1++)
 {
-_putchar((n % 99) + '0');
+_putchar((n1 % 10) + '0');
+_putchar(',');
+_putchar(' ');
+}
+for (n2 = 1; n <= 9; n2++)
+{
+for (n3 = 0; n <= 8; n3++)
+{
+_putchar((n2 % 10) + '0');
+_putchar((n3 % 10) + '0');
 _putchar(',');
 _putchar(' ');
 }
 }
+}
+
