@@ -9,7 +9,7 @@
  */
 void print_to_98(int n1, int n2, int n3)
 {
-for (n1 = 0; n <= 9; n1++)
+for (n1 = 0; n1 <= 9; n1++)
 {
 _putchar((n1 % 10) + '0');
 _putchar(',');
