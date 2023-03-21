@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include"main.h"
+/**
+ * print_alphabet_x10 - Using function prints alphabet for 10x times
+ */
+void print_alphabet_x10(void)
+{
