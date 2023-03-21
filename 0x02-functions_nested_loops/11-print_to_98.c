@@ -7,8 +7,10 @@
  */
 void print_to_98(int n)
 {
-for (n = 0; n <= 98; n++)
+for (n = 0; n <= 9; n++)
+{
 _putchar((n % 10) + '0');
 _putchar(',');
 _putchar(' ');
+}
 }
