@@ -15,9 +15,9 @@ _putchar((n1 % 10) + '0');
 _putchar(',');
 _putchar(' ');
 }
-for (n2 = 1; n <= 9; n2++)
+for (n2 = 1; n2 <= 9; n2++)
 {
-for (n3 = 0; n <= 8; n3++)
+for (n3 = 0; n3 <= 8; n3++)
 {
 _putchar((n2 % 10) + '0');
 _putchar((n3 % 10) + '0');
