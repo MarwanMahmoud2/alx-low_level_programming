@@ -9,12 +9,12 @@
 int print_sigh(int n)
 {
 if (n > 0)
-_putchar(%d is greater than zero, n);
+_putchar('n' is greater than zero);
 return (1);
 else if (n == 0)
-_putchar(%d is zero, n);
+_putchar('n' is zero);
 return (0);
 else
-_putchar(%d is less than zero, n);
+_putchar('n' is less than zero);
 return (-1);
 }
