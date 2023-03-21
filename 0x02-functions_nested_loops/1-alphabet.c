@@ -8,8 +8,6 @@ void print_alphabt(void);
 {
 char i;
 for (i = 'a'; i <= 'z'; i++;)
-{
 putchar(a);
-}
 putchar ("\n");
 }
