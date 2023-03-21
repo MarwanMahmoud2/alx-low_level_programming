@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
- * main - Using function printing a to z
- *
- * Return - Always 0 (Success)
+ * print_alphabet - Using function printing a to z
  */
 void print_alphabet(void)
 {
