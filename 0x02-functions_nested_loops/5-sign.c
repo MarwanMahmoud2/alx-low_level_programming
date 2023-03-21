@@ -6,7 +6,7 @@
  * Return: 1 if greater than zero , 0 if zero , -1 if less than zero
  * @n: The number to be checked.
  */
-int print_sigh(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
