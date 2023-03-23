@@ -18,6 +18,6 @@ if (s == size - 1)
 continue; 
 _putchar('\n');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
