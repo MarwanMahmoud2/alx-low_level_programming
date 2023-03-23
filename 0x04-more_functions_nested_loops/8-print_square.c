@@ -15,7 +15,7 @@ for (mass = 0; mass < size; mass++)
 _putchar('#');
 }
 if (s == size - 1)
-continue; 
+continue;
 _putchar('\n');
 }
 }
