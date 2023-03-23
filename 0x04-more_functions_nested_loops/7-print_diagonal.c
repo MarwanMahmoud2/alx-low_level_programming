@@ -15,8 +15,6 @@ for (space = 0; space < count; space++)
 _putchar(' ');
 }
 _putchar('\\');
-if (count > (n - 1))
-continue;
 _putchar('\n');
 }
 }
