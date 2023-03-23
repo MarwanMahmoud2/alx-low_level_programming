@@ -2,6 +2,7 @@
 /**
  * _isupper - funtion checks for uppercase character.
  *
+ * @c: the character to be checked
  * Return: 1 for uppercase, otherwise 0.
  */
 int _isupper(int c)
