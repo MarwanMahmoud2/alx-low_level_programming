@@ -3,6 +3,7 @@
  * puts2 - Function prints a reversed string
  *
  * @str: the string.
+ * Return: no return.
  */
 void puts2(char *str)
 {
@@ -15,9 +16,7 @@ _putchar('\n');
 break;
 }
 if (i % 2 == 0)
-{
 _putchar(str[i]);
 i++;
-}
 }
 }
