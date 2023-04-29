@@ -16,12 +16,10 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
  */
 int find_len(char *str)
 {
-  int len = 0;
-
-  while (*str++)
-    len++;
-
-  return (len);
+int len = 0;
+while (*str++)
+len++;
+return (len);
 }
 
 /**
@@ -35,20 +33,15 @@ int find_len(char *str)
  */
 char *create_xarray(int size)
 {
-  char *array;
-  int index;
-
-  array = malloc(sizeof(char) * size);
-
-  if (array == NULL)
-    exit(98);
-
-  for (index = 0; index < (size - 1); index++)
-    array[index] = 'x';
-
-  array[index] = '\0';
-
-  return (array);
+char *array;
+int index;
+array = malloc(sizeof(char) * size);
+if (array == NULL)
+exit(98);
+for (index = 0; index < (size - 1); index++)
+array[index] = 'x';
+array[index] = '\0';
+return (array);
 }
 
 /**
@@ -60,10 +53,9 @@ char *create_xarray(int size)
  */
 char *iterate_zeroes(char *str)
 {
-  while (*str && *str == '0')
-    str++;
-
-  return (str);
+while (*str && *str == '0')
+str++;
+return (str);
 }
 
 /**
@@ -76,15 +68,13 @@ char *iterate_zeroes(char *str)
  */
 int get_digit(char c)
 {
-  int digit = c - '0';
-
-  if (digit < 0 || digit > 9)
-    {
-      printf("Error\n");
-      exit(98);
-    }
-
-  return (digit);
+int digit = c - '0';
+if (digit < 0 || digit > 9)
+{
+printf("Error\n");
+exit(98);
+}
+return (digit);
 }
 
 /**
